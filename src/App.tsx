@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import { GrpcDemoServicePromiseClient } from './proto_gen/grpc-demo_v1_grpc_web_pb';
-import { HelloWorldRequest } from "./proto_gen/grpc-demo_v1_pb";
+import { GrpcDemoServicePromiseClient } from './proto_gen/proto/grpc-demo_v1_grpc_web_pb';
+import { HelloWorldRequest } from "./proto_gen/proto/grpc-demo_v1_pb";
 
 const client = new GrpcDemoServicePromiseClient('http://localhost:8080');
 
